@@ -241,7 +241,7 @@ class WorkflowPublisherUI(QtWidgets.QMainWindow):
     # def toggle_theme(self):
     #     app = QtWidgets.QApplication.instance() # find current running app
     #     self.theme = "light" if self.theme == "dark" else "dark"
-    #     app.setStyleSheet(utils.load_stylesheet(str(THEME_PATH/f"{self.theme}.qss")))
+    #     app.setStyleSheet(utils.load_stylesheet(str(THEME_PATH/f"{self.theme}.css")))
     #     #app.processEvents() # sometimes widgets need this to update the theme
 
     # ------------------ Status bar loading funcs ------------------

@@ -593,7 +593,7 @@ class ImageViewer(QtWidgets.QWidget):
         self._parent = parent
         self._parent.installEventFilter(self)
 
-        self.setAttribute(QtCore.Qt.WidgetAttribute.WA_StyledBackground, True)  # set to true so we can use qss to style
+        self.setAttribute(QtCore.Qt.WidgetAttribute.WA_StyledBackground, True)  # set to true so we can use css to style
         self.setObjectName("input-blocker")
         self.initUI()
 
