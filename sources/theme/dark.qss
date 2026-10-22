@@ -1,0 +1,111 @@
+QWidget[bg=white]{
+    background-color: #404040;
+}
+QWidget#file-div{
+    border-radius: 10px;
+    border: 2px solid #15263c;
+    background-color: #415e82;
+}
+QWidget#input-blocker{
+    background: rgba(0, 0, 0, 187);
+}
+
+QFrame#token-input{
+    border: 1px solid #707070
+}
+QFrame#cgtw-sep-line{
+    border: 1px solid #538ea0;
+}
+QFrame#slack-sep-line{
+    border: 1px solid #b35c9d;
+}
+
+QPushButton#publish-btn{
+    background-color: #0078d4;
+    color:white;
+}
+QPushButton#publish-btn:disabled{
+    background-color: #466174;
+    color: #b7b7b7;
+}
+QPushButton#open-file-btn{
+    border-radius : 5px; 
+    color:#f0f0f0; 
+    background-color: #0a71bf; 
+    padding: 6px 16px;
+}
+QPushButton#current-file-btn{
+    border-radius : 5px; 
+    border: 1 px solid #a59173;
+    color: #3f3f3f; 
+    background-color: #e7dbc9; 
+    padding: 6px 16px;
+}
+QPushButton#current-file-btn:hover{
+    background-color: hsl(36, 39%, 70%);
+}
+QPushButton#check-btn{
+    border-radius : 5px; 
+    border: 1px solid #948267;
+    color: #292828; 
+    background-color: hsl(39, 17%, 78%);
+    padding: 6px 16px;
+}
+QPushButton#check-btn:hover{
+    background-color: hsl(39, 20%, 87%);
+}
+QPushButton#check-btn:pressed{
+    color: #292929; 
+    background-color: hsl(39, 10%, 60%);
+}
+
+QLabel[heading=h2]{
+    font-size:14pt;
+}
+QLabel[heading=h3]{
+    font-size:11pt;
+}
+QLabel[font-color=grey]{
+    color:#A7A7A7;
+}
+QLabel[font-color=light-grey]{
+    color:#DADADA;
+}
+QLabel[font-color=white]{
+    color:#E0E0E0;
+}
+QLabel[font-color=green]{
+    color: #76af50;
+}
+QLabel#token-label{
+    font-weight:600;
+}
+QLabel#user-email-display{
+    color:#909090;
+    font-size:8pt;
+}
+
+QScrollArea {
+    border: 1px solid #42a1eb; /* Change color and thickness */
+}
+
+QLineEdit {
+    background-color: #383838;
+}
+QTextEdit {
+    background-color: #353535;
+}
+
+QProgressBar {
+    border: 1px solid #707070;
+    border-radius: 8px; /* Use a slightly tighter radius (e.g., 8px instead of 15px) */
+    background-color: #2b2b2b;
+    color: #ffffff;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #c07442;
+    border-radius: 6px; /* Slightly smaller than the outer radius */
+    margin: 1px;        /* Keeps the chunk inside the rounded border frame */
+}

@@ -1,0 +1,98 @@
+QWidget[bg=white]{
+    background-color: white;
+}
+QWidget#file-div{
+    border-radius: 10px;
+    background-color: #faf6cd;
+}
+QWidget#input-blocker{
+    background: rgba(0, 0, 0, 187);
+}
+
+QFrame#cgtw-sep-line{
+    border: 2px dashed #9cdcf0;
+}
+QFrame#slack-sep-line{
+    border: 2px dashed #f09cdb;
+}
+
+QPushButton#publish-btn{
+    background-color: #0078d4;
+    color:white;
+}
+QPushButton#publish-btn:disabled{
+    background-color: #466174;
+    color: #b7b7b7;
+}
+QPushButton#open-file-btn{
+    border-radius : 5px; 
+    color:#f0f0f0; 
+    background-color: #0078d4; 
+    padding: 6px 16px;
+}
+
+QLabel[heading=h2]{
+    font-size:14pt;
+}
+QLabel[heading=h3]{
+    font-size:11pt;
+}
+QLabel[font-color=grey]{
+    color:#656565;
+}
+QLabel[font-color=light-grey]{
+    color:#909090;
+}
+QLabel[font-color=white]{
+    color:#E0E0E0;
+}
+QLabel[font-color=green]{
+    color: #76af50;
+}
+QLabel#token-label{
+    font-weight:600;
+}
+QLabel#user-email-display{
+    color:#909090;
+    font-size:8pt;
+}
+
+/* Horizontal Scrollbar */
+QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background: #c0c0c0;
+    min-height: 20px;
+    border-radius: 5px; /* Makes the handle rounded */
+}
+QScrollBar::handle:vertical:hover {
+    background: #a0a0a0;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px; /* Removes top/bottom arrow buttons */
+}
+/* Horizontal Scrollbar */
+QScrollBar:horizontal {
+    border: none;
+    background: #f0f0f0;
+    height: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+QScrollBar::handle:horizontal {
+    background: #c0c0c0;
+    min-width: 20px;
+    border-radius: 5px; /* Makes the handle rounded */
+}
+QScrollBar::handle:horizontal:hover {
+    background: #a0a0a0;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical,
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
