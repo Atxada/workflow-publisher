@@ -8,7 +8,7 @@
 
 https://github.com/user-attachments/assets/34302230-d302-44fc-9d48-1928ab3ff699
 
-***
+## Description
 An Autodesk Maya publisher for studio and production workflows, using [CGTeamWork](http://cgteamwork.com/) for production tracking and [Slack](https://slack.com/) for team communication.
 
 The Slack integration uses a Slack bot with a few essential token scopes, while the CGTeamWork integration uses both its web and local APIs. Since the setup is studio-specific, it requires proper configuration and maintenance for each studio or workplace.
