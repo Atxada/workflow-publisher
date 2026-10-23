@@ -1,13 +1,17 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Autodesk Maya](https://img.shields.io/badge/Autodesk%20Maya-37A5CC?style=for-the-badge)
-![test](https://img.shields.io/badge/python-3.12-blue)
+![Slack](https://img.shields.io/badge/Slack-ab8d33?style=for-the-badge)
+![CG Teamwork](https://img.shields.io/badge/CG%20Teamwork-60a036?style=for-the-badge)
+
 
 # workflow-publisher
 
 https://github.com/user-attachments/assets/34302230-d302-44fc-9d48-1928ab3ff699
 
 ***
-Autodesk Maya publisher for studio workflow, using CGTeamWork as production tracking and Slack as team communication 
+Autodesk Maya publisher for studio/production workflow, using [CGTeamWork](http://cgteamwork.com/) as production tracking and [Slack](https://slack.com/) as team communication 
+
+## Features
 
 ---
 > [!NOTE]  
