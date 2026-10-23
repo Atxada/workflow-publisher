@@ -9,10 +9,22 @@
 https://github.com/user-attachments/assets/34302230-d302-44fc-9d48-1928ab3ff699
 
 ***
-Autodesk Maya publisher for studio/production workflow, using [CGTeamWork](http://cgteamwork.com/) as production tracking and [Slack](https://slack.com/) as team communication 
+An Autodesk Maya publisher for studio and production workflows, using [CGTeamWork](http://cgteamwork.com/) for production tracking and [Slack](https://slack.com/) for team communication.
 
-## Features
+The Slack integration uses a Slack bot with a few essential token scopes, while the CGTeamWork integration uses both its web and local APIs. Since the setup is studio-specific, it requires proper configuration and maintenance for each studio or workplace.
 
+> I won't be continuing development of this tool, as it was created primarily as a proof of concept and a learning project.
+
+## Some Important Features
+- **Slack Integration** - sends task submission to slack channels
+- **Automated File Publishing using CGTW API** - publishes files to the appropriate server directories
+- **Integrated Scene Validation with [Helpy](https://github.com/Atxada/helpy-checklist)** 
+- **Rich Text Editor** - include user mention support and Slack Block Kit formatting
+- **Attachment Support** - allow users attach images, GIFs, and other files 
+- **Built-in Image Viewer** - previews image attachments directly
+- **Multithreading Support** - handles background operations for tool responsiveness
+
+ 
 ---
 > [!NOTE]  
 > Tested in Windows 10 22H2 and Maya 2024
